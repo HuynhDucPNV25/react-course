@@ -3,13 +3,8 @@ let students = [
     { id: 2, name: "Hai", grade: "B" },
     { id: 3, name: "Linh", grade: "C" },
   ];
-function updateStudentGrade(studentsArray,idToUpdate,newGrade){
-    const index = studentsArray.findIndex(student => student.id === idToUpdate);
-    studentsArray[index].grade = newGrade;
+const updateStudentGrade= (studentsArray,idToUpdate,newGrade) => {
+    studentsArray.forEach(student => {student.id === idToUpdate ? student.grade = newGrade : student});
     return studentsArray;
-    // studentsArray.forEach(student => {
-    //     student.id === idToUpdate ? student.grade = newGrade : ""
-    // });
-    // return studentsArray;
 }  
 console.log(updateStudentGrade(students,1,"D"));

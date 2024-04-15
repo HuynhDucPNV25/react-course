@@ -11,17 +11,17 @@ function filterEvenNumbers4(arr){
     return arr.map(word => word.length > 6 ? word : null).filter(word => word !== null);
 }
 
-const squareNumbers = (arr) =>  arr.map(number => number * number);
-function squareNumbers(arr) {
+const squareNumbers5 = (arr) =>  arr.map(number => number * number);
+function squareNumbers6(arr) {
     return arr.map(number => number * number);
 }
 
-const sumArray = (arr) => arr.reduce((total, num) => total + num);
-function sumArray (arr) {
+const sumArray7 = (arr) => arr.reduce((total, num) => total + num);
+function sumArray8 (arr) {
     return arr.reduce((total, num) => total + num);
 }
 
-console.log(filterEvenNumbers5(words));
-console.log(filterEvenNumbers2(words));
-console.log(squareNumbers(numbers));
-console.log(sumArray(numbers));
+console.log(filterEvenNumbers1(words));
+console.log(filterEvenNumbers3(words));
+console.log(squareNumbers5(numbers));
+console.log(sumArray7(numbers));

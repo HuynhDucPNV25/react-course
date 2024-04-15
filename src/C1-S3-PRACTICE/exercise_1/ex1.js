@@ -4,7 +4,7 @@ let shoppingCart =
         { name: "Bananas", price: 1.5, quantity: 2 },
         { name: "Oranges", price: 3, quantity: 1 },
     ];
-let totalPrice1 = 0, totalPrice2 = 0, totalPrice3 = 0;
+let totalPrice1 = 0, totalPrice2 = 0;
 
 function calculateTotalPrice1 (cart){
     cart.forEach(item => {

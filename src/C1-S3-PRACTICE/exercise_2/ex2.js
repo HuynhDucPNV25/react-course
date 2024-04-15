@@ -5,7 +5,8 @@ function updateArray1(array, index, newValue) {
     newArr[index] = newValue;
     return newArr;
 }
-
+console.log( updateArray1(originalArray,2,5));
+console.log( (originalArray));
 function updateArray2(array, index, newValue) {
     let newArr = [...array];
     newArr[index] = newValue;
